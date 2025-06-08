@@ -1,6 +1,4 @@
 command: ['streamlit', 'run', 'app.py']
 env:
-  - name: 'DATABRICKS_WAREHOUSE_ID'
-    value: 'quoz2bvjy8bl7skl'
   - name: 'STREAMLIT_GATHER_USAGE_STATS'
     value: 'false'
