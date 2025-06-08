@@ -1,3 +1,6 @@
-command: streamlit run app.py --server.port $PORT
+command: ['streamlit', 'run', 'app.py']
 env:
-  STREAMLIT_BROWSER_GATHER_USAGE_STATS: "false"
+  - name: 'DATABRICKS_WAREHOUSE_ID'
+    value: 'quoz2bvjy8bl7skl'
+  - name: 'STREAMLIT_GATHER_USAGE_STATS'
+    value: 'false'
